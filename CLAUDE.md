@@ -14,6 +14,8 @@ familiaris, taxon 9615), dataset PXD052932. Next: cat (Felis catus, taxon 9685).
 ## Hard rules
 1. Inspect before modifying. Explain the plan before editing files.
 2. Never delete, move or overwrite anything in ~/uapp_data or /mnt/d. Write new versioned folders.
+   Only exception (decision 0002): the pipeline PURGE step may delete files it downloaded into
+   ~/uapp_data/staging/<dataset>/<batch>/, after VERIFY passes, logging each deletion. Claude Code never deletes.
 3. Never change search parameters, FDR thresholds, ORF rules or candidate classes without my
    explicit approval. They live in versioned config files; a change creates a new version.
 4. No species, accessions or data paths hardcoded in pipeline code; they belong in config/.
