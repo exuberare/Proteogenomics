@@ -1,0 +1,34 @@
+# Data and results live on D:\uapp_data, never in Git
+*.raw
+*.mzML
+*.mzXML
+*.mgf
+*.d/
+*.pepXML
+*.pep.xml
+*.mzid
+*.fasta
+*.fa
+*.fasta.gz
+*.db
+results/
+work/
+data/
+
+# Nextflow runtime files
+.nextflow/
+.nextflow.log*
+trace*.txt
+report*.html
+timeline*.html
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and licence keys
+.env
+*license*
+*licence*
+*.key
