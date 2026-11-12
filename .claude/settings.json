@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "default",
+    "ask": [
+      "Bash(git push *)",
+      "Bash(nextflow run *)",
+      "Bash(conda install *)",
+      "Bash(mamba install *)",
+      "Bash(pip install *)"
+    ],
+    "deny": [
+      "Bash(rm *)",
+      "Edit(//mnt/d/**)",
+      "Edit(//home/kalant/uapp_data/**)",
+      "Read(./.env)"
+    ]
+  }
+}
