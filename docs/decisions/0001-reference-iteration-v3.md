@@ -1,4 +1,4 @@
-# 0001 - v3 (>= 20 aa) is the thesis iteration
+# 0001 - v3 (>= 20 aa) is the reference iteration
 
 Date: 2026-11-12
 Decision: The 20 aa lncRNA-ORF iteration (v3) is the reference result.
